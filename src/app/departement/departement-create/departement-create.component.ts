@@ -66,6 +66,6 @@ export class DepartementCreateComponent {
     //     // Ajoute ici une gestion d'erreur visuelle pour l'utilisateur
     //   }
     // );
-    console.log('Le bouton a été cliqué!');
+    console.log('Le bouton a été cliquééééééééééé! ');
   }
 }
