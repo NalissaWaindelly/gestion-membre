@@ -1,0 +1,16 @@
+<h2>Liste des départements</h2>
+
+<div>
+  <h3>Ajouter un département</h3>
+  <input type="text" [(ngModel)]="newDepartement.nom" placeholder="Nom">
+  <textarea [(ngModel)]="newDepartement.description" placeholder="Description"></textarea>
+  <button >Création</button>
+
+</div>
+
+<ul>
+  <li *ngFor="let departement of departements">
+    {{ departement.nom }}
+    <button (click)="deleteDepartement(departement.id)">Supprimer</button>
+  </li>
+</ul>
